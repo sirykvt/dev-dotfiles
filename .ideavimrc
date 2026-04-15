@@ -1,0 +1,57 @@
+" .ideavimrc is a configuration file for IdeaVim plugin. It uses
+"   the same commands as the original .vimrc configuration.
+" You can find a list of commands here: https://jb.gg/h38q75
+" Find more examples here: https://jb.gg/share-ideavimrc
+
+set visualbell
+set scrolloff=10
+set number
+set relativenumber
+set clipboard+=unnamed
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+
+let mapleader = " "
+
+nmap <leader>s <Action>(SaveAll)
+nmap <leader>w <Action>(CloseContent)
+nmap <leader>W <Action>(CloseAllEditors)
+nmap <Esc> <Action>(HideActiveWindow)
+nmap <Esc> :noh<CR><Esc>
+nmap <BS> <C-^>
+
+nmap <leader><leader> <Action>(OpenTabsAction)
+nmap <leader>lr <Action>(Switcher)
+nmap <leader>ll <Action>(SearchEverywhere)
+nmap <leader>lc <Action>(GotoClass)
+nmap <leader>ls <Action>(GotoSymbol)
+nmap <leader>lf <Action>(GotoFile)
+nmap <leader>ff <Action>(FindInPath)
+nmap <leader>fu <Action>(FindUsages)
+nmap <leader>m <Action>(FileStructurePopup)
+nmap K <Action>(ShowHoverInfo)
+nmap gi <Action>(GotoDeclaration)
+nmap <leader>i <Action>(ShowIntentionActions)
+
+nmap <leader>n <Action>(ReSharperNavigateTo)
+nmap <leader>g <Action>(Generate)
+nmap <leader>rr <Action>(Refactorings.QuickListPopupAction)
+nmap <leader>rf <Action>(ReformatCode)
+nmap <leader>rn <Action>(RenameElement)
+
+nmap <leader>pb <Action>(BuildStartupProject)
+nmap <leader>pr <Action>(Run)
+nmap <leader>pd <Action>(Debug)
+nmap <leader>b <Action>(ToggleLineBreakpoint)
+
+nmap H <Action>(PreviousTab)
+nmap L <Action>(NextTab)
+nmap <leader>tp <Action>(PinActiveEditorTab)
+nmap <leader>tw <Action>(CloseAllUnpinnedEditors)
+nmap <leader>z <Action>(ToggleZenMode)
+nmap <leader>q <Action>(SwitchHeaderSource)
