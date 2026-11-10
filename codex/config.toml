@@ -1,0 +1,212 @@
+web_search = "live"
+model_verbosity = "medium"
+model = "gpt-6-astra"
+model_reasoning_effort = "high"
+personality = "pragmatic"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+approvals_reviewer = "user"
+developer_instructions = "Always use the apply_patch tool to create or modify text files. Never edit files via shell commands (sed, echo/cat redirection, Set-Content, python scripts, etc.)."
+
+
+
+
+
+[marketplaces.openai-bundled]
+source_type = "local"
+source = "/mnt/c/Users/user/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+source_type = "local"
+source = '\\?\C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
+
+[plugins."documents@openai-primary-runtime"]
+enabled = false
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = false
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = false
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = false
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = false
+
+[plugins."visualize@openai-bundled"]
+enabled = false
+
+[plugins."computer-use@openai-bundled"]
+enabled = false
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = false
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = false
+
+[windows]
+sandbox = "elevated"
+
+[projects.'g:\dev\work\zr\zirconium\source']
+trust_level = "trusted"
+
+[projects.'f:\dev\pojects\slack_review']
+trust_level = "trusted"
+
+[projects.'c:\users\user']
+trust_level = "trusted"
+
+[projects.'f:\dev\pojects\codex']
+trust_level = "trusted"
+
+[projects.'f:\dev\minecraft\minecraft-server-fabric']
+trust_level = "trusted"
+
+[projects.'c:\users\user\documents\codex\2026-09-25\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\user\appdata\local\nvim']
+trust_level = "trusted"
+
+[tui]
+status_line = ["model-with-reasoning", "current-dir", "context-remaining", "context-used", "five-hour-limit", "weekly-limit", "context-window-size", "used-tokens", "total-input-tokens", "total-output-tokens"]
+screen_reader_detection_done = true
+copy_on_select = "auto"
+show_tooltips = false
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+"gpt-6.1-sol" = 4
+
+[desktop]
+ambient-suggestions-enabled = false
+reviewDelivery = "inline"
+integratedTerminalShell = "wsl"
+runCodexInWindowsSubsystemForLinux = true
+conversationDetailMode = "STEPS_COMMANDS"
+followUpQueueMode = "queue"
+appearanceLightCodeThemeId = "codex"
+appearanceTheme = "dark"
+enabled-reasoning-efforts = ["low", "medium", "high", "xhigh", "persistent"]
+
+[desktop.appearanceLightChromeTheme]
+accent = "#0169cc"
+accentSource = "chatgpt"
+contrast = 45
+ink = "#0d0d0d"
+opaqueWindows = false
+surface = "#ffffff"
+
+[desktop.appearanceLightChromeTheme.fonts]
+
+[desktop.appearanceLightChromeTheme.semanticColors]
+diffAdded = "#00a240"
+diffRemoved = "#e02e2a"
+skill = "#751ed9"
+
+[mcp_servers.node_repl]
+enabled = false
+args = []
+command = "/mnt/c/Users/user/AppData/Local/OpenAI/Codex/runtimes/cua_node/a5a02988362ca169/bin/node_repl.exe"
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = 'C:\Users\user\AppData\Local\OpenAI\Codex\runtimes\cua_node\a5a02988362ca169\bin\node_modules'
+NODE_REPL_NODE_PATH = 'C:\Users\user\AppData\Local\OpenAI\Codex\runtimes\cua_node\a5a02988362ca169\bin\node.exe'
+NODE_REPL_TRUSTED_CODE_PATHS = 'C:\Users\user\.codex;C:\Users\user\AppData\Local\OpenAI\Codex\runtimes\cua_node\a5a02988362ca169\bin\node_modules'
+CODEX_HOME = 'C:\Users\user\.codex'
+BROWSER_USE_AVAILABLE_BACKENDS = ""
+BROWSER_USE_TINYSKY_ENABLED = "1"
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.1013.31256"
+NODE_REPL_TRUSTED_SERVICES = '{"sky":"@oai/sky/service"}'
+SKY_CUA_NATIVE_PIPE = "1"
+SKY_CUA_NATIVE_PIPE_DIRECTORY = '\\.\pipe\codex-computer-use-81250e46-fe67-4eb5-b60b-58b690d44b55'
+CODEX_CLI_PATH = 'C:\Users\user\AppData\Local\OpenAI\Codex\bin\e78bad9887fa50cf\codex.exe'
+WSLENV = "NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS/w:NODE_REPL_NODE_MODULE_DIRS/w:NODE_REPL_NODE_PATH/w:NODE_REPL_TRUSTED_CODE_PATHS/w:CODEX_HOME/w:BROWSER_USE_AVAILABLE_BACKENDS/w:BROWSER_USE_TINYSKY_ENABLED/w:BROWSER_USE_CODEX_APP_BUILD_FLAVOR/w:BROWSER_USE_CODEX_APP_VERSION/w:NODE_REPL_TRUSTED_SERVICES/w:SKY_CUA_NATIVE_PIPE/w:SKY_CUA_NATIVE_PIPE_DIRECTORY/w:CODEX_CLI_PATH/w"
+
+[mcp_servers.cua_repl]
+command = 'C:\Program Files\WindowsApps\OpenAI.Codex_26.1013.3656.0_x64__2p2nqsd0c76g0\app\ChatGPT.exe'
+enabled = false
+
+[features]
+hooks = true
+apps = false
+plugins = false
+remote_plugin = false
+multi_agent = false
+multi_agent_v2 = false
+browser_use = false
+browser_use_external = false
+browser_use_full_cdp_access = false
+computer_use = false
+image_generation = false
+memories = false
+skill_mcp_dependency_install = false
+skill_search = false
+tool_suggest = false
+goals = false
+fast_mode = false
+ultrafast_mode = false
+
+[hooks.state]
+
+[hooks.state.'C:\Users\user\.codex\hooks.json:session_start:0:0']
+trusted_hash = "sha256:4bb755ab97c832e747f19b150e1d05f2e86074a910a9ed3963f157e1548992c5"
+
+[hooks.state.'C:\Users\user\.codex\hooks.json:user_prompt_submit:0:0']
+trusted_hash = "sha256:8a4c08e0caa32a09e53898c1369b78aac93d1a0d93b9240136bc5853d9af98d9"
+
+[hooks.state.'C:\Users\user\.codex\hooks.json:stop:0:0']
+trusted_hash = "sha256:14feaff7d2641b7b13dfd9b0de06dd2eb3ba39665d86afe23e83650f9be5000a"
+
+[hooks.state.'C:\Users\user\.codex\hooks.json:interrupt:0:0']
+trusted_hash = "sha256:966c385d30ae15ceae9f910e48a99f633a145d6c7076668a587c514a85c8f69a"
+
+[hooks.state.'C:\Users\user\.codex\hooks.json:permission_request:0:0']
+trusted_hash = "sha256:fa730d55ee9d4e2f2fe3074190ca464619c4266bc64fa8a6ebe3736cf18a2d6f"
+
+[apps._default]
+enabled = false
+
+[skills]
+max_context_tokens = 1
+
+[[skills.config]]
+path = 'C:/Users/user/.codex/skills/.system/imagegen'
+enabled = false
+
+[[skills.config]]
+path = 'C:/Users/user/.codex/skills/.system/openai-docs'
+enabled = false
+
+[[skills.config]]
+path = 'C:/Users/user/.codex/skills/.system/review-agent'
+enabled = false
+
+[[skills.config]]
+path = 'C:/Users/user/.codex/skills/.system/skill-creator'
+enabled = false
+
+[[skills.config]]
+path = 'C:/Users/user/.codex/skills/.system/skill-installer'
+enabled = false
+
+[plugins."app-6938a94a61d881918ef32cb999ff937c@openai-curated-remote"]
+enabled = false
+
+[plugins."openai-templates@openai-curated-remote"]
+enabled = false
+
+[plugins."plugin-management@openai-curated-remote"]
+enabled = false
+
+[plugins."sites@openai-curated-remote"]
+enabled = false
+
+[plugins."work-pets@openai-curated-remote"]
+enabled = false

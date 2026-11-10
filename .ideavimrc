@@ -3,6 +3,7 @@
 " You can find a list of commands here: https://jb.gg/h38q75
 " Find more examples here: https://jb.gg/share-ideavimrc
 
+" Editor and search.
 set visualbell
 set scrolloff=10
 set number
@@ -13,45 +14,158 @@ set smartcase
 set hlsearch
 set incsearch
 
+" Keep Which-Key open until a key is pressed.
+set notimeout
+set which-key
+let g:WhichKey_DefaultDelay = 100
+
+" IdeaVim extensions.
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-commentary'
 
+" Space is the leader, matching Neovim.
 let mapleader = " "
 
-nmap <leader>s <Action>(SaveAll)
-nmap <leader>w <Action>(CloseContent)
-nmap <leader>W <Action>(CloseAllEditors)
-nmap <Esc> <Action>(HideActiveWindow)
-nmap <Esc> :noh<CR><Esc>
-nmap <BS> <C-^>
+" Mode switching and whitespace.
+nnoremap <Esc> :noh<CR>
+nnoremap <leader>, :set list!<CR>
+nnoremap <leader>. :%s/\s\+$//g<CR>
 
+" Let IdeaVim handle the save shortcut.
+sethandler <C-s> a:vim
+
+" Saving and file paths.
+nmap <C-s> <Action>(SaveDocument)
+imap <C-s> <Action>(SaveDocument)
+nmap <leader>yp <Action>(CopyContentRootPath)
+nmap <leader>yP <Action>(CopyAbsolutePath)
+
+" File and symbol search.
 nmap <leader><leader> <Action>(OpenTabsAction)
 nmap <leader>lr <Action>(Switcher)
 nmap <leader>ll <Action>(SearchEverywhere)
 nmap <leader>lc <Action>(GotoClass)
-nmap <leader>ls <Action>(GotoSymbol)
 nmap <leader>lf <Action>(GotoFile)
+nmap <leader>lg <Action>(FindInPath)
+nmap <leader>l. <Action>(RecentFiles)
+nmap <leader>/ <Action>(Find)
+nmap <leader>ss <Action>(FileStructurePopup)
+nmap <leader>sS <Action>(GotoSymbol)
+
+" Documentation and code navigation.
+nmap K <Action>(ShowHoverInfo)
+nmap gK <Action>(ParameterInfo)
+nmap <CR> <Action>(GotoDeclaration)
+nmap gy <Action>(GotoTypeDeclaration)
+nmap <leader>sd <Action>(GotoDeclaration)
+nmap <leader>sr <Action>(FindUsages)
+nmap <leader>si <Action>(ReSharperGotoImplementation)
+
+nmap <leader>N <Action>(ReSharperNavigateTo)
+nmap <leader>ns <Action>(GotoSuperMethod)
+nmap <leader>ni <Action>(RiderShowIncomingCalls)
+nmap <leader>no <Action>(RiderShowOutgoingCalls)
+
+" Additional Rider search shortcuts.
 nmap <leader>ff <Action>(FindInPath)
 nmap <leader>fu <Action>(FindUsages)
-nmap <leader>m <Action>(FileStructurePopup)
-nmap K <Action>(ShowHoverInfo)
-nmap gi <Action>(GotoDeclaration)
-nmap <leader>i <Action>(ShowIntentionActions)
+nmap <leader>fr <Action>(ReplaceInPath)
 
-nmap <leader>n <Action>(ReSharperNavigateTo)
-nmap <leader>g <Action>(Generate)
-nmap <leader>rr <Action>(Refactorings.QuickListPopupAction)
+" Code generation and refactoring.
+nmap <leader>rg <Action>(Generate)
+nmap <leader>rr <Action>(RenameElement)
+nmap <leader>ra <Action>(ShowIntentionActions)
+nmap <leader>ro <Action>(OverrideMethods)
 nmap <leader>rf <Action>(ReformatCode)
-nmap <leader>rn <Action>(RenameElement)
+xmap <leader>rf <Action>(ReformatCode)
 
+" Diagnostics and inlay hints.
+nmap <leader>ee <Action>(ShowErrorDescription)
+nmap <leader>el <Action>(ActivateProblemsViewToolWindow)
+nmap <leader>eL <Action>(Rider.ProblemsView.ErrorsInSolution)
+nmap <leader>xh <Action>(ToggleInlayHintsGloballyAction)
+
+" Build, run and debug.
 nmap <leader>pb <Action>(BuildStartupProject)
 nmap <leader>pr <Action>(Run)
 nmap <leader>pd <Action>(Debug)
 nmap <leader>b <Action>(ToggleLineBreakpoint)
 
-nmap H <Action>(PreviousTab)
-nmap L <Action>(NextTab)
+" Files, tabs and editor view.
+nnoremap <BS> <C-^>
+nmap <leader>w <Action>(SaveDocument)
+nmap <leader>d <Action>(CloseContent)
+nmap <leader>W <Action>(CloseAllEditors)
 nmap <leader>tp <Action>(PinActiveEditorTab)
-nmap <leader>tw <Action>(CloseAllUnpinnedEditors)
+nmap <leader>td <Action>(CloseAllUnpinnedEditors)
 nmap <leader>z <Action>(ToggleZenMode)
 nmap <leader>q <Action>(SwitchHeaderSource)
+nmap <leader>vp <Action>(SelectInProjectView)
+
+" Which-Key group names.
+let g:WhichKeyDesc_lookup = "<leader>l Find"
+let g:WhichKeyDesc_search = "<leader>s Symbols and references"
+let g:WhichKeyDesc_refactor = "<leader>r Refactor"
+let g:WhichKeyDesc_diagnostics = "<leader>e Diagnostics"
+let g:WhichKeyDesc_navigation = "<leader>n Navigate"
+let g:WhichKeyDesc_find = "<leader>f Find and replace"
+let g:WhichKeyDesc_project = "<leader>p Build and run"
+let g:WhichKeyDesc_tabs = "<leader>t Tabs"
+let g:WhichKeyDesc_copy = "<leader>y Copy path"
+let g:WhichKeyDesc_display = "<leader>x Display"
+let g:WhichKeyDesc_view = "<leader>v View"
+let g:WhichKeyDesc_project_view = "<leader>vp Show file in Project"
+
+" Which-Key command labels.
+let g:WhichKeyDesc_save = "<leader>w Save file"
+let g:WhichKeyDesc_close = "<leader>d Close file"
+let g:WhichKeyDesc_close_all = "<leader>W Close all files"
+let g:WhichKeyDesc_buffers = "<leader><leader> Open files"
+let g:WhichKeyDesc_buffer_search = "<leader>/ Search current file"
+let g:WhichKeyDesc_whitespace = "<leader>, Toggle whitespace"
+let g:WhichKeyDesc_trim = "<leader>. Remove trailing whitespace"
+let g:WhichKeyDesc_generate = "<leader>rg Generate code"
+let g:WhichKeyDesc_navigate_to = "<leader>N Navigate to"
+let g:WhichKeyDesc_breakpoint = "<leader>b Toggle breakpoint"
+let g:WhichKeyDesc_zen = "<leader>z Toggle zen mode"
+let g:WhichKeyDesc_source_header = "<leader>q Switch source/header"
+
+let g:WhichKeyDesc_switcher = "<leader>lr Switcher"
+let g:WhichKeyDesc_everywhere = "<leader>ll Search everywhere"
+let g:WhichKeyDesc_classes = "<leader>lc Find class"
+let g:WhichKeyDesc_files = "<leader>lf Find files"
+let g:WhichKeyDesc_grep = "<leader>lg Search project text"
+let g:WhichKeyDesc_recent = "<leader>l. Recent files"
+let g:WhichKeyDesc_document_symbols = "<leader>ss File symbols"
+let g:WhichKeyDesc_workspace_symbols = "<leader>sS Project symbols"
+let g:WhichKeyDesc_definitions = "<leader>sd Go to definition"
+let g:WhichKeyDesc_references = "<leader>sr Find references"
+let g:WhichKeyDesc_implementations = "<leader>si Find implementations"
+let g:WhichKeyDesc_super = "<leader>ns Go to base"
+let g:WhichKeyDesc_find_text = "<leader>ff Search project text"
+let g:WhichKeyDesc_find_usages = "<leader>fu Find usages"
+let g:WhichKeyDesc_replace = "<leader>fr Replace project text"
+
+let g:WhichKeyDesc_rename = "<leader>rr Rename symbol"
+let g:WhichKeyDesc_code_action = "<leader>ra Code action"
+let g:WhichKeyDesc_override = "<leader>ro Override methods"
+let g:WhichKeyDesc_format = "<leader>rf Format file"
+let g:WhichKeyDesc_line_diagnostics = "<leader>ee Show diagnostic"
+let g:WhichKeyDesc_file_diagnostics = "<leader>el Open Problems"
+let g:WhichKeyDesc_project_diagnostics = "<leader>eL Solution errors"
+let g:WhichKeyDesc_incoming_calls = "<leader>ni Incoming calls"
+let g:WhichKeyDesc_outgoing_calls = "<leader>no Outgoing calls"
+let g:WhichKeyDesc_inlay_hints = "<leader>xh Toggle inlay hints"
+
+let g:WhichKeyDesc_build = "<leader>pb Build startup project"
+let g:WhichKeyDesc_run = "<leader>pr Run"
+let g:WhichKeyDesc_debug = "<leader>pd Debug"
+let g:WhichKeyDesc_pin = "<leader>tp Pin tab"
+let g:WhichKeyDesc_close_unpinned = "<leader>tw Close unpinned tabs"
+let g:WhichKeyDesc_relative_path = "<leader>yp Copy relative path"
+let g:WhichKeyDesc_absolute_path = "<leader>yP Copy absolute path"
+
+let g:WhichKeyDesc_signature = "gK Signature help"
+let g:WhichKeyDesc_definition = "<CR> Go to definition"
+let g:WhichKeyDesc_type_definition = "gy Go to type definition"
+let g:WhichKeyDesc_alternate_file = "<BS> Previous file"

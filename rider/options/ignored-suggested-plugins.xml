@@ -1,0 +1,12 @@
+<application>
+  <component name="IgnoredPluginSuggestions">
+    <option name="pluginIds">
+      <list>
+        <option value="fr.socolin.application-insights-debug-log-viewer" />
+        <option value="com.intellij.rider.godot" />
+        <option value="fr.socolin.awesomeLogViewer" />
+        <option value="com.jetbrains.opentelemetry" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,360 @@
+<application>
+  <component name="MaterialThemeNewConfig">
+    <option name="accentState">
+      <MTAccentConfigState>
+        <option name="accentColorHex" value="ff9800" />
+      </MTAccentConfigState>
+    </option>
+    <option name="favoriteThemesState">
+      <MTFavoriteThemesConfigState>
+        <option name="favoriteThemes">
+          <map>
+            <entry key="1a889165-3e3a-4b17-8191-668be6e1fdca">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="1a889165-3e3a-4b17-8191-668be6e1fdcf">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="2b3a3367-4472-4b1b-8b0f-c89cbf584b65">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="2b3a3367-4472-4b1b-8b0f-c89cbf584b66">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="4b6007f7-b596-4ee2-96f9-968d3d3eb392">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="71b26d33-3d44-42f4-8166-31b17c762b32">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ARC_DARK">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="DARKER">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="DEEPOCEAN">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="DRACULA">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="Darcula">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ExperimentalDark">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ExperimentalLight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ExperimentalLightWithLightHeader">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="FOREST">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="GITHUB">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="GITHUB_DARK">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="IntelliJ">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="Islands Darcula">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="Islands Dark">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="Islands Light">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="JetBrainsHighContrastTheme">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="JetBrainsLightTheme">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="LIGHTER">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="LIGHT_OWL">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="MONOKAI">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="MOONLIGHT">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="NIGHT_OWL">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="OCEANIC">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ONE_DARK">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ONE_LIGHT">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="PALENIGHT">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ReSharperDark">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ReSharperDay">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ReSharperLight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ReSharperNight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="RiderDark">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="RiderDay">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="RiderLight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="RiderMelonDark">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="RiderMelonDay">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="RiderMelonLight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="RiderMelonNight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="RiderNight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="SANDYBEACH">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="SKYBLUE">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="SOLARIZED_DARK">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="SOLARIZED_LIGHT">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="SPACE">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="SYNTHWAVE">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="VOLCANO">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="VisualAssistDark">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="VisualAssistDay">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="VisualAssistLight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="VisualAssistNight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="VisualStudioDark">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="VisualStudioDay">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="VisualStudioLight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="VisualStudioNight">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="a109ba15-600a-476f-b7cc-46d832daba9d">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="ayu-dark">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="b315d4cf-a00d-4d1a-9552-cff99c2eeef7">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="b315d4cf-a00d-4d1a-9552-cff99c2eeef8">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="bfaeb3f4-6953-4cd7-a57f-32026d74acdd">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="bfaeb3f4-6953-4cd7-a57f-32026d74acde">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+            <entry key="f92a0fa7-1a98-47cd-b5cb-78ff67e6f4f3">
+              <value>
+                <MTFavoriteTheme />
+              </value>
+            </entry>
+          </map>
+        </option>
+      </MTFavoriteThemesConfigState>
+    </option>
+    <option name="metadata">
+      <MTMetadataState>
+        <option name="pristineConfig" value="false" />
+        <option name="userId" value="299c5bd5:19d63bd07bc:-8000" />
+        <option name="version" value="11.0.0-beta5" />
+        <option name="wizardShown" value="true" />
+      </MTMetadataState>
+    </option>
+    <option name="themeState">
+      <MTThemeConfigState>
+        <option name="selectedThemeName" value="DARKER" />
+      </MTThemeConfigState>
+    </option>
+  </component>
+</application>

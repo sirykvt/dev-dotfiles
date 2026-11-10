@@ -1,0 +1,10 @@
+<application>
+  <component name="BlockTerminalUsage">
+    <option name="blockTerminalUsedLastTimeMillis" value="1738934442136" />
+    <option name="blockTerminalUsedLastVersion" value="243.23654.126" />
+  </component>
+  <component name="TerminalOptionsProvider">
+    <option name="mySoundBell" value="false" />
+    <option name="useOptionAsMetaKey" value="true" />
+  </component>
+</application>

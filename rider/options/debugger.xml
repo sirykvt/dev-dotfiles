@@ -1,0 +1,20 @@
+<application>
+  <component name="XDebuggerSettings">
+    <data-views>
+      <option name="showLibraryStackFrames" value="true" />
+      <option name="valueLookupDelay" value="150" />
+    </data-views>
+    <general>
+      <option name="hideDebuggerOnProcessTermination" value="true" />
+    </general>
+    <debuggers>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <child-process-debugging-settings />
+          <macOS-symbol-settings />
+          <nt-symbol-settings />
+        </configuration>
+      </debugger>
+    </debuggers>
+  </component>
+</application>

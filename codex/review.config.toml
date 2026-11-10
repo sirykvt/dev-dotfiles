@@ -1,0 +1,3 @@
+approval_policy = "on-request"
+sandbox_mode = "read-only"
+approvals_reviewer = "user"

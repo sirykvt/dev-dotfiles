@@ -1,0 +1,85 @@
+{
+  "env": {
+    "ENABLE_CLAUDEAI_MCP_SERVERS": "false",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "DISABLE_NON_ESSENTIAL_MODEL_CALLS": "1",
+    "DISABLE_TELEMETRY": "1",
+    "DISABLE_AUTOUPDATER": "0"
+  },
+  "includeGitInstructions": false,
+  "permissions": {
+    "deny": [
+      "Skill(dataviz)",
+      "Skill(artifact-design)",
+      "Skill(artifact-diagramming)",
+      "Skill(artifact-capabilities)",
+      "Skill(loop)",
+      "Skill(schedule)",
+      "Skill(claude-api)",
+      "Skill(claude-in-chrome)",
+      "Skill(run)",
+      "Skill(security-review)",
+      "Skill(anthropic-skills:built-in-browser)",
+      "Skill(anthropic-skills:chrome-browser)",
+      "Skill(anthropic-skills:computer-use)",
+      "Skill(anthropic-skills:deep-research)",
+      "Skill(anthropic-skills:docs)",
+      "Skill(anthropic-skills:docx)",
+      "Skill(anthropic-skills:google-workspace)",
+      "Skill(anthropic-skills:import-memory)",
+      "Skill(anthropic-skills:morning)",
+      "Skill(anthropic-skills:pdf)",
+      "Skill(anthropic-skills:pptx)",
+      "Skill(anthropic-skills:skill-creator)",
+      "Skill(anthropic-skills:xlsx)",
+      "Agent",
+      "NotebookEdit",
+      "EnterWorktree",
+      "ExitWorktree",
+      "CronCreate",
+      "CronDelete",
+      "CronList",
+      "PushNotification",
+      "RemoteTrigger",
+      "SendMessage",
+      "ListAgents",
+      "SendFeedback",
+      "mcp__*"
+    ],
+    "defaultMode": "auto"
+  },
+  "model": "opus",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "^(startup|resume|clear|compact|fork)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\user\\.claude\\hooks\\herdr-agent-state.ps1\" session",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "node C:/Users/user/.claude/statusline.js"
+  },
+  "outputStyle": "Explanatory",
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "medium"
+    },
+    "claude-sonnet-5-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "promptSuggestionEnabled": false,
+  "autoUpdatesChannel": "latest",
+  "tui": "fullscreen",
+  "theme": "dark",
+  "editorMode": "normal"
+}

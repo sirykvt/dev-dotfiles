@@ -1,0 +1,135 @@
+<keymap version="1" name="Custom" parent="Visual Studio 2022">
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateBuildToolWindow" />
+  <action id="ActivateCommitToolWindow" />
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
+  <action id="ActivateHierarchyToolWindow" />
+  <action id="ActivateNuGetToolWindow" />
+  <action id="ActivateProblemsViewToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
+  <action id="ActivateTerminalToolWindow" />
+  <action id="ActivateUnitTestsToolWindow" />
+  <action id="ActivateVersionControlToolWindow" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="CIDR.Debugger.DetachAll">
+    <keyboard-shortcut first-keystroke="shift ctrl f5" />
+  </action>
+  <action id="CallInlineCompletionAction">
+    <keyboard-shortcut first-keystroke="shift alt back_slash" />
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="CancelBuildAction">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+  </action>
+  <action id="ChooseDebugConfiguration" />
+  <action id="ChooseRunConfiguration" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="CompileDirty" />
+  <action id="ContextHelp">
+    <keyboard-shortcut first-keystroke="shift f1" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="EditorAddCaretPerSelectedLine" />
+  <action id="EditorContextInfo" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="ForceRunToCursor" />
+  <action id="ForceStepOver" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="HippieCompletion" />
+  <action id="JumpToStatement" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="OpenWinFormsCodeAction" />
+  <action id="OpenWinFormsDesignerAction" />
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="alt back_quote" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="shift f8" />
+  </action>
+  <action id="ReSharperNavigateTo">
+    <keyboard-shortcut first-keystroke="alt f1" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="RunToCursor" />
+  <action id="SelectIn" />
+  <action id="SelectVirtualTemplateElement" />
+  <action id="ShowSettingsAndFindUsages" />
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="shift f7" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="SwitchCodeToDesigner" />
+  <action id="SwitchDesignerToCode" />
+  <action id="SwitchHeaderSource">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="TextSearchAction">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="ToggleTemporaryLineBreakpoint" />
+  <action id="Vcs.ToggleAmendCommitMode" />
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="ctrl alt f9" />
+  </action>
+  <action id="context.save" />
+  <action id="copilot.chat.inline" />
+  <action id="copilot.openCopilot">
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+</keymap>

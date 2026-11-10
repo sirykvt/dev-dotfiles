@@ -1,0 +1,153 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="Switcher" />
+      <option value="SelectInProjectView" />
+      <option value="RecentFiles" />
+      <option value="$Paste" />
+      <option value="ToggleZenMode" />
+      <option value="Bookmarks" />
+      <option value="OpenTabsAction" />
+      <option value="VimFindActionIdAction" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="C#" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Segoe UI" />
+    <option name="fontSize" value="12.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN": "true",
+    "AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT": "0",
+    "AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES": "true",
+    "AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN_ONLY_ON_HOVER": "false",
+    "AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "false",
+    "AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR": "false",
+    "BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT": "0",
+    "BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES": "false",
+    "BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN": "false",
+    "BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN_ONLY_ON_HOVER": "true",
+    "BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN": "true",
+    "BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN": "false",
+    "BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR": "true",
+    "BEFORE.DISTRACTION.MODE.SHOW_NEW_MAIN_TOOLBAR": "false",
+    "BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR": "true",
+    "DISTRACTION.MODE.ENTER.VALUE": "false",
+    "Debug.Allow.Typing": "true",
+    "GuidGeneratorDialog.Uppercase": "true",
+    "InstalledPluginsSearchHistory": "monokai\nexam\nexa\ne\nу",
+    "KEYMAP": "down\nUp\ndebug\ntabsw\nHide Active",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "5",
+    "MarketplacePluginsSearchHistory": "/tag:Theme dark\n/tag:Theme\nmonokai\nmonokau\nmomo",
+    "Notification.DisplayName-DoNotAsk-Backend notifications": "Backend notifications",
+    "Notification.DisplayName-DoNotAsk-Perforce": "Perforce",
+    "Notification.DisplayName-DoNotAsk-Rider": "Rider",
+    "Notification.DisplayName-DoNotAsk-updates.plugins.autoupdate.notification": "Enable auto-update for plugins",
+    "Notification.DoNotAsk-Backend notifications": "true",
+    "Notification.DoNotAsk-Perforce": "true",
+    "Notification.DoNotAsk-Rider": "true",
+    "Notification.DoNotAsk-updates.plugins.autoupdate.notification": "true",
+    "RD.Init.Cfg.2": "true",
+    "RD.Init.DialogShown.Ide": "true",
+    "Rider.BuildToolWindow.Splitter.Proportion": "0.22535962",
+    "Rider.Current.Build.Use.Start": "2026-03-30T13:19:00.440637200Z",
+    "Rider.Last.Observed.New.UI.State": "true",
+    "Rider.Last.Started.IDE.Build": "RD-261.22158.335",
+    "Rider.QualitySurvey253.Notification.Shown": "true",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.TerminalEngineMigration.2026.1": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.cache.folding.model.on.disk.true": "true",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.cidr.test.roots.only": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "SettingsSearchHistory": "zen\ncenter\ntabswitch\nscroll\nhorizonta",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "clion.initialConfigPerformed": "true",
+    "debugger.speed.search.tree.option.hint.counter": "1",
+    "enter_selection_count": "5",
+    "evaluation.feedback.enabled": "false",
+    "evlsprt3.253": "6",
+    "evlsprt3.261": "3",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "261.22158.335",
+    "file.colors.enable.custom.UnrealEngine": "",
+    "file.colors.enable.non.project": "",
+    "file.gist.reindex.count": "16",
+    "fileTypeChangedCounter": "4",
+    "find.popup.splitter": "0.3188406",
+    "fontSizeToResetConsole": "14.0",
+    "fontSizeToResetEditor": "14.0",
+    "git.working.trees.stop.showing.new.badge": "true",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.trial.state.widget.trial.started.got.it.id": "1",
+    "ide.islands.ab3": "true",
+    "ide.islands.new.darcula": "true",
+    "last_open_solution_path": "F:/dev/pojects/playground2d",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "mt.NUMBER_OF_LAUNCHES": "1",
+    "plugins.preselection.path": "F:/dev/pojects/vim-tabs-list/build/distributions",
+    "previousColorScheme": "_@user_Visual Assist Dark",
+    "promo.ignore.suggested.ide": "true",
+    "registry.to.advanced.settings.migration.build": "RD-261.22158.335",
+    "rider.color.scheme.updated": "true",
+    "rider.tool.window.stripe.manager.enable": "true",
+    "search.everywhere.splitter": "0.41218132",
+    "show.solution.configuration.on.toolbar": "false",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true",
+    "toolwindow.showToolWindowsNames.ts": "2026-09-02T14:34:21.9480585",
+    "toolwindow.stripes.buttons.info.shown": "true",
+    "trial.state.last.availability.check": "0",
+    "trial.state.last.state": "SUBSCRIPTION_GRACE",
+    "ts.lib.d.ts.version": "5.7.3",
+    "whats.new.last.shown.version": "2026-1-22158-237b5907c908b91ea74a308004560fddb82073ed"
+  },
+  "keyToStringList": {
+    "com.jetbrains.rider.afterInstall.statsReportedBuilds": [
+      "RD-253.28294.237",
+      "RD-253.28294.356",
+      "RD-253.29346.144",
+      "RD-253.31033.136",
+      "RD-261.22158.335"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.jetbrains.rider.cpp.fileType.CppHeaderFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ],
+    "project_template_sources": [
+      "C:/Program Files/JetBrains/JetBrains Rider 2025.3.0.3/plugins/sqlproj-plugin/Rider.Sqlproj.Worker/Templates/microsoft.build.sql.templates.2.0.0-preview.1.nupkg"
+    ]
+  }
+}]]></component>
+  <component name="ReworkedTerminalUsage">{
+  &quot;enterKeyPressedTimes&quot;: 1,
+  &quot;firstIdeSessionMoment&quot;: {
+    &quot;type&quot;: &quot;org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.BeforeTrackingStarted&quot;
+  }
+}</component>
+</application>

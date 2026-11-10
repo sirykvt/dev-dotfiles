@@ -1,0 +1,11 @@
+<application>
+  <component name="LafManager">
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="ExperimentalDark" scheme="_@user_Darcula" />
+      <laf-to-scheme laf="Islands Dark" scheme="_@user_Visual Assist Dark" />
+      <laf-to-scheme laf="ReSharperNight" scheme="_@user_Ayu Dark" />
+      <laf-to-scheme laf="RiderNight" scheme="_@user_Ayu Dark" />
+      <laf-to-scheme laf="VisualStudioNight" scheme="_@user_Darcula" />
+    </lafs-to-previous-schemes>
+  </component>
+</application>

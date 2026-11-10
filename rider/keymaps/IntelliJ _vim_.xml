@@ -1,0 +1,113 @@
+<keymap version="1" name="IntelliJ (vim)" parent="$default">
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="ActivateRunToolWindow" />
+  <action id="Arrangement.Rule.Edit" />
+  <action id="BookmarksView.Rename" />
+  <action id="ContextHelp" />
+  <action id="CopyElement" />
+  <action id="Diff.OpenInEditor" />
+  <action id="Documentation.EditSource" />
+  <action id="DomCollectionControl.Edit" />
+  <action id="EditSource" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="EditorUpWithSelection" />
+  <action id="ExternalSystem.OpenConfig" />
+  <action id="FileChooser.TogglePathBar" />
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
+  <action id="Frontend.EditSource" />
+  <action id="GotoClass" />
+  <action id="GotoNextError" />
+  <action id="Graph.RouteEdges" />
+  <action id="HideActiveWindow" />
+  <action id="List-selectPreviousColumn">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="List-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="NavBar-selectLeft">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="NavBar-selectUp" />
+  <action id="OpenBookmarkGroup" />
+  <action id="ParameterInfo" />
+  <action id="PopupMenu-selectNext" />
+  <action id="PopupMenu-selectPrevious" />
+  <action id="ProjectViewEditSource" />
+  <action id="RiderEditSource" />
+  <action id="RiderProjectDiagramApplyCurrentLayout" />
+  <action id="SegmentedButton-left">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="SelectNextOccurrence" />
+  <action id="SplitChooser.SplitDown" />
+  <action id="SplitChooser.SplitLeft">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="SplitChooser.SplitTop" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="SwitcherNextProblemFallback" />
+  <action id="Table-selectPreviousRow" />
+  <action id="Table-selectPreviousRowExtendSelection" />
+  <action id="Table-startEditing" />
+  <action id="Terminal.CommandCompletion.SelectSuggestionAbove" />
+  <action id="Terminal.CommandCompletion.SelectSuggestionBelow" />
+  <action id="Terminal.ExpandBlockSelectionAbove" />
+  <action id="Terminal.InsertInlineCompletion" />
+  <action id="Terminal.SelectBlockAbove">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="Terminal.SelectBlockBelow" />
+  <action id="Tree-selectParent">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="Tree-selectPrevious">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="Tree-selectPreviousExtendSelection" />
+  <action id="Tree-startEditing" />
+  <action id="Vcs.CombinedDiff.CaretToNextBlock" />
+  <action id="Vcs.EditSource" />
+  <action id="Vcs.Log.GoToChild" />
+  <action id="Vcs.Log.GoToParent" />
+  <action id="XDebugger.JumpToSource" />
+  <action id="XDebugger.SetValue" />
+</keymap>

@@ -1,0 +1,25 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
+      <component name="MaterialThemeProjectNewConfig">
+        <option name="metadata">
+          <MTProjectMetadataState>
+            <option name="userId" value="299c5bd5:19d63bd07bc:-7fff" />
+          </MTProjectMetadataState>
+        </option>
+      </component>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+      <component name="WindowStateProjectService">
+        <state x="461" y="88" key="SettingsEditor" timestamp="1778416882683">
+          <screen x="0" y="0" width="1920" height="1032" />
+        </state>
+        <state x="461" y="88" key="SettingsEditor/0.0.1920.1032/-1920.0.1920.1032" timestamp="1778416882682" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
