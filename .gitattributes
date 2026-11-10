@@ -1,0 +1,2 @@
+# Store configs byte-for-byte so restore writes exactly what backup captured.
+* -text
